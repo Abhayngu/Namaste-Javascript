@@ -1,0 +1,14 @@
+1. CDN stands for content delivery network. It is the cached version of content (like html, images) provided by some provider in a fast way across all the geographic locations.
+2. crossorigin attribute is specified in script tag so that the browser knows that the url script gonna access can be other then the domain in which this webpage is hosted.
+3. Because React is not just use for webdevelopment. It is used in other areas as well but reactDOM part is limited to web developement, which is why it is separated out from the core react code which is common in all the tech where react is used.
+4. React element is created using createReactElement() method. It requires two arguements : first one is type of tag which you want to create like 'h1' or 'span' and the second one specifies the props or attributes for that tag.
+5. To create a reactDOM root node you can use reactDOM.createRoot() funciton which takes one parameter which is the element which you want to make root.
+6. To render react element you can either use reactDOM.render() method or root.render() method. Both the method takes one arguement which is a react element which it wants to render.
+7. React manipulates dom efficiently as everything even in html is written using javascript. Hence updating anything involves only that javascript made html tag to be changed instead of whole html page.
+8. In createReactElement() method there are two required parameters, after that you can provide any number of parameters, that will be counted as children of that react element, Generally we provide array as the children of the react element.
+9. In createReactElement() method, the first parameter is for defining type of html tag and second parameter is for defining props or attributes of that html tag.
+10. It returns a javascript object (not html tag which kind of sound obvious)
+11. HTML tag is not created using react, instead it is created using reactDOM library. When react elements are passed inside the render function, those objects are then converted into html tags to be put in the dom.
+12. The already present content will be replaced (not appended) by whatever element your are passing inside the render method.
+13. Because it can be applied to some specific chunk of code not interfering rest of the code in the same or different file. 
+14. Yes, because the code is executed in a sequential manner. If one script depends on other, then the latter one should be applied before the former one.

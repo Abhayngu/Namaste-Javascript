@@ -1,3 +1,14 @@
 1. What is cdn.
 2. What is crossorigin attribute.
 3. Why there are two react files containing code for core react and dom manipulation and not a single one combining both the files.
+4. How to create a react element
+5. How to creat a reactDOM root node
+6. How to render react element using reactDOM
+7. How does react manipulates dom efficiently (Hint : Javascript)
+8. In createReactElement method, how many arguements can you give
+9. In createReactElement method what is the first and second arguement for.
+10. What does the createReactElement() method returns.
+11. How does the html tag created using react.
+12. What if we render inside a html element that already has something inside it.
+13. Why react is called as a library instead of framework.
+14. Does order of file specified in script tag matters.
