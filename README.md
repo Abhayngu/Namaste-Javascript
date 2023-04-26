@@ -1,1 +1,1 @@
-# Namaste-Javascript
+# Namaste-React
