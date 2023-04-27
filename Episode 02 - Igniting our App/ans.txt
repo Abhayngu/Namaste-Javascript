@@ -1,4 +1,13 @@
 1. A javascript package manager which does not stands for node package manager ( as per its official website).
 2. Package.json file is the configuration file for our project.
 3. A bundler is used to make your code production ready by bundling all the files and its dependencies in a single file.
-4. There are two types of dependencies, one is development dependencies which are used to aid the development process and one is the core dependency which are used in production as well not just development. 
+4. There are two types of dependencies, one is development dependencies which are used to aid the development process and one is the core dependency which are used in production as well not just development.
+5. A package versioning is done in this format : major.minor.patch. For example package : 3.4 2 means 3rd major version, 4th minor version and 2nd patch updates. In package.json, tilde(~) means that upgrade to the latest patch version but not minor version, and carat(^) means that upgrade to the lastest patch and minor version but not major version.
+6. The package-lock.json file tracks or locks down the exact version of dependencies getting installed along its dependencies (exact version), while the package.json only kind of give a lower bound for version and does not specifies dependencies.
+7. The integrity field contains cryptographic hash of the package to check whether the package has been changed or not. The output of the cryptographic hash is some fixed amounts of bits which makes it easy to compare two cryptographic hash output and it also changes significantly with the small change in the file whose hash has been taken.
+8. node_modules folder was made when we installed some package using command 'npm install package_name'. It contains the code of the packages which we install along with the code of its dependencies.
+9. A transitive dependency is a dependency that is not directly required by your project, but is required by one of the packages that your project depends on. (Chatgpt)
+10. We do not need to push the node_modules folder in the github, we can achieve this by adding the path of node_modules in the .gitignore file in the directory where .git exists.
+11. Yes we need to push those two json files on to the github.
+12. With the help of package.json and package-lock.json anyone can run the code by recreating node_modules foldre using the command 'npm install' in the root directory of the project. It will install all the packages as per the package-lock.json file.
+13. npm is a default package manager for node and is used to install packages, while npx is used for executing any package.

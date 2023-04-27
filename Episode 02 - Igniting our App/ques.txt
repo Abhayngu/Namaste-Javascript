@@ -2,3 +2,12 @@
 2. What is package.json file which is made after entering command npm init.
 3. What is a bundler.
 4. How many types of dependencies are there in a node project.
+5. What is the difference between carat(^) and tilde(~) in package.json
+6. What is the package-lock.json file and how it is different from package.json
+7. What is the integrity field in the package-lock.json
+8. Why node_modules folder made and when was it made.
+9. What is a transitive dependency.
+10. Do we push node_modules in github, if not then how to achieve this.
+11. Do we need to push package.json and package_lock.json file in the github.
+12. If we do not have the node_modules folder, how someone else will run our code.
+13. Difference between npm and npx
