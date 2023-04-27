@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Abhayngu/Namaste-React/issues"
   },
-  "homepage": "https://github.com/Abhayngu/Namaste-React#readme"
+  "homepage": "https://github.com/Abhayngu/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }

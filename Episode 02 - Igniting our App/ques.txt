@@ -1,2 +1,4 @@
 1. What is npm.
 2. What is package.json file which is made after entering command npm init.
+3. What is a bundler.
+4. How many types of dependencies are there in a node project.
