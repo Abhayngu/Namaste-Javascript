@@ -1,0 +1,2 @@
+1. What is npm.
+2. What is package.json file which is made after entering command npm init.

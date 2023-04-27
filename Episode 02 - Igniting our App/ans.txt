@@ -1,0 +1,2 @@
+1. A javascript package manager which does not stands for node package manager ( as per its official website).
+2. Package.json file is the configuration file for our project.

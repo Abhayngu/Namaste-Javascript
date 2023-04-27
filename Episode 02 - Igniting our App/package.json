@@ -1,0 +1,19 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhayngu/Namaste-React.git"
+  },
+  "author": "Abhay Kumar Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhayngu/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/Abhayngu/Namaste-React#readme"
+}
