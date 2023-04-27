@@ -11,3 +11,4 @@
 11. Do we need to push package.json and package_lock.json file in the github.
 12. If we do not have the node_modules folder, how someone else will run our code.
 13. Difference between npm and npx
+14. What does parcel (bundler) does in the background
