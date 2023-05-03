@@ -1,0 +1,10 @@
+1. What are npm scripts
+2. How and where to write npm scripts
+3. Is there any shortcut for 'start' script
+4. Are react elements and html elements equivalent
+5. What is JSX
+6. Is JSX inside react
+7. Does react understands JSX
+8. If not then how it is rendered in the browser
+9. Is JSX is HTML
+10. What if we want to specify multiple lines element in jsx, will everything would be same like a one line jsx
