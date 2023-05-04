@@ -8,3 +8,4 @@
 8. If not then how it is rendered in the browser
 9. Is JSX is HTML
 10. What if we want to specify multiple lines element in jsx, will everything would be same like a one line jsx
+12. Is there any mandatory convention for naming react components, if yes then what.
