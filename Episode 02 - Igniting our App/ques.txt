@@ -12,3 +12,12 @@
 12. If we do not have the node_modules folder, how someone else will run our code.
 13. Difference between npm and npx
 14. What does parcel (bundler) does in the background
+15. Behind the scenes, react functional and class component are what?
+16. What is a functional component in react
+17. Difference between react component and react element
+18. What is a component composition
+19. How to write js inside jsx
+20. Can we write any js code inside jsx (in terms of expression and statements)
+21. What are the ways you can write a react component inside jsx somewhere
+22. Does jsx expression need to have only one parent element
+23. How to have multiple parent element without adding another html tag
